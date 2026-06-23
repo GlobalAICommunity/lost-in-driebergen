@@ -7,6 +7,7 @@
     }
   },
   "postCreateCommand": "pip install -r requirements.txt",
+  "postStartCommand": "pip install -r requirements.txt --quiet",
   "customizations": {
     "vscode": {
       "extensions": [
